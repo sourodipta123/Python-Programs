@@ -1,0 +1,5 @@
+#Printing infinite loops
+i=1
+while i>=0:
+    print(i)
+    i+=1
