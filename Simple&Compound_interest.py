@@ -1,4 +1,4 @@
-p=int(input("Enter the Principle: "))
+p=int(input("Enter the Principle amount: "))
 r=int(input("Enter the Rate: "))
 t=int(input("Enter the Time: "))
 
