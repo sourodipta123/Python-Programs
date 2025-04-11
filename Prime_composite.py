@@ -8,6 +8,6 @@ else:
         if (a%i==0) :
             print(a,"is composite")
             break
-        else:
-            print(a,"is prime")
-            break
+    else:
+         print(a,"is prime")
+            
