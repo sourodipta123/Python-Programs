@@ -3,6 +3,8 @@ if a==1 or a==0:
     print(a,"is neither prime nor composite")
 elif a==2:
     print(a,"is Prime")
+elif a<0:
+    print("Prime Number doesn't exist")
 else:
     for i in range(2,a):
         if (a%i==0) :
@@ -10,4 +12,3 @@ else:
             break
     else:
          print(a,"is prime")
-            
