@@ -1,10 +1,13 @@
-#Program to check armstrong number
+n=int (input("Enter a number: "))
+sum=0
+num=n
+l=len(str(n))
+while(num>0):
+    rem=num%10
+    sum=sum+rem**l
+    num=num//10
 
-num=int(input("Enter a number: "))
-count=0
-for i in str(num):
-    count+= int(i)**3
-if num == count:
+if n==sum:
     print("Armstrong")
 else:
-    print("Not Armstrong")
+    print("Not a Armstrong")
